@@ -1,0 +1,19 @@
+$primary-color: grey;
+
+* {
+  box-sizing: border-box;
+  background-color: $primary-color;
+}
+
+.nav {
+  display: flex;
+  gap: 2rem;
+  &__item {
+    list-style: none;
+  }
+  &__link {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+  }
+}

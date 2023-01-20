@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+  background-color: grey;
+}
+
+.nav {
+  display: flex;
+  gap: 2rem;
+}
+.nav__item {
+  list-style: none;
+}
+.nav__link {
+  list-style: none;
+  text-decoration: none;
+  color: black;
+}
+
+/*# sourceMappingURL=style.css.map */
